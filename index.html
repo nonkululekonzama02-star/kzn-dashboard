@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KZN Service Request Dashboard</title>
+<style>
+body {font-family: Arial; background: #f4f6f8; margin: 0; padding: 20px;}
+h1 {color: #1a73e8; text-align: center;}
+.card {background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px;}
+table {width: 100%; border-collapse: collapse; margin-top: 15px;}
+th {background: #1a73e8; color: white; padding: 12px; text-align: left;}
+td {padding: 10px; border-bottom: 1px solid #ddd;}
+tr:hover {background: #f1f3f4;}
+.summary {display: flex; gap: 15px; flex-wrap: wrap;}
+.box {flex: 1; min-width: 120px; background: #e8f0fe; padding: 15px; border-radius: 8px; text-align: center;}
+.box h3 {margin: 0; color: #1a73e8;}
+</style>
+</head>
+<body>
+
+<h1>KZN Service Request Dashboard</h1>
+
+<div class="card">
+<h2>Key Metrics - Jan 2026</h2>
+<div class="summary">
+<div class="box"><h3>8</h3><p>Total Tickets</p></div>
+<div class="box"><h3>6</h3><p>Closed</p></div>
+<div class="box"><h3>2</h3><p>Open</p></div>
+<div class="box"><h3>26 min</h3><p>Avg Resolution</p></div>
+</div>
+</div>
+
+<div class="card">
+<h2>Cleaned Ticket Data</h2>
+<table>
+<tr>
+<th>TicketID</th><th>Date</th><th>Department</th><th>Issue</th><th>Status</th><th>Category</th><th>ResolutionTime</th>
+</tr>
+<tr><td>101</td><td>2026-01-05</td><td>HR</td><td>password reset</td><td>closed</td><td>Access</td><td>15min</td></tr>
+<tr><td>102</td><td>2026-01-05</td><td>FINANCE</td><td>excel crash</td><td>open</td><td>Software</td><td>-</td></tr>
+<tr><td>103</td><td>2026-01-06</td><td>HR</td><td>printer not working</td><td>closed</td><td>Hardware</td><td>2 hours</td></tr>
+<tr><td>104</td><td>2026-01-06</td><td>IT</td><td>network down</td><td>closed</td><td>Hardware</td><td>45min</td></tr>
+<tr><td>105</td><td>2026-01-07</td><td>FINANCE</td><td>EMAIL ISSUE</td><td>closed</td><td>Software</td><td>30min</td></tr>
+<tr><td>106</td><td>2026-01-07</td><td>HR</td><td>password reset</td><td>closed</td><td>Access</td><td>10min</td></tr>
+<tr><td>107</td><td>2026-01-08</td><td>IT</td><td>Not specified</td><td>closed</td><td>Other</td><td>1 hour</td></tr>
+<tr><td>108</td><td>2026-01-08</td><td>HR</td><td>printer not working</td><td>open</td><td>Hardware</td><td>-</td></tr>
+</table>
+<p><small>Data cleaned: Fixed dates, standardized departments, filled blanks, added categories.</small></p>
+</div>
+
+</body>
+                             </html>
